@@ -7,7 +7,9 @@ Configures bluetooth serial modules quickly from the command line.
 A simple install from npm should do the job.
 
 ```
-npm install btconfigurator
+git clone https://github.com/ajfisher/bluetooth-configurator.git
+cd bluetooth-configurator
+npm install
 ```
 
 ## Wire up your Bluetooth module.
