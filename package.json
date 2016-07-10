@@ -1,0 +1,33 @@
+{
+  "name": "btconfigurator",
+  "version": "0.0.1",
+  "description": "Configures a bluetooth serial module",
+  "main": "bt.js",
+  "bin": {
+      "bt-config": "bt.js"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "serialport": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodebots",
+    "serial",
+    "hardware",
+    "bluetooth"
+  ],
+  "author": "Andrew Fisher <ajfisher.td@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajfisher/bluetooth-configurator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ajfisher/bluetooth-configurator/issues"
+  },
+  "homepage": "https://github.com/ajfisher/bluetooth-configurator#readme"
+}
